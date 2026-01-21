@@ -133,7 +133,7 @@ export const AboutSection = () => {
               </div>
 
               {/* Tab Content */}
-              <div className="mt-6 min-h-[120px]">
+              <div className="mt-6 min-h-30">
                 <AnimatePresence mode="wait">
                   <motion.p
                     key={activeTab}

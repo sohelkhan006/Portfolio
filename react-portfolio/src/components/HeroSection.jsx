@@ -90,11 +90,12 @@ export const HeroSection = () => {
     );
   };
 
+  const newLocal = "relative min-h-screen flex items-center justify-center px-4 overflow-hidden bg-linear-to-br from-background via-background/95 to-primary/10";
   return (
     <section
       id="hero"
       ref={ref}
-      className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden bg-gradient-to-br from-background via-background/95 to-primary/10"
+      className={newLocal}
     >
       <div className="container max-w-7xl mx-auto mt-20">
         <motion.div
@@ -111,7 +112,7 @@ export const HeroSection = () => {
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
               <span className="block">Hi, I’m Sohel</span>
-              <span className="block bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent mt-2">
+              <span className="block bg-linear-to-r from-primary to-purple-600 bg-clip-text text-transparent mt-2">
                 Frontend Developer
               </span>
             </h1>
@@ -178,7 +179,7 @@ export const HeroSection = () => {
           <div className="flex-1 max-w-md">
             <div className="bg-background/90 border rounded-2xl p-6 shadow-2xl font-mono text-sm">
               {codeSnippets.map((line, index) => (
-                <div key={index} className="min-h-[20px]">
+                <div key={index} className="min-h-5">
                   {index < currentCodeLine && line}
                   {index === currentCodeLine && (
                     <>

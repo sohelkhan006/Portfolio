@@ -57,7 +57,7 @@ export const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className="py-12 md:py-14 px-4 bg-gradient-to-br from-background to-primary/5"
+      className="py-12 md:py-14 px-4 bg-linear-to-br from-background to-primary/5"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}

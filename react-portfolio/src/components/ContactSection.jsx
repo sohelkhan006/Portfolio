@@ -15,7 +15,7 @@ export const ContactSection = () => {
           <span className="inline-block px-3 py-1 text-sm rounded-full bg-primary/10 text-primary mb-4">
             Let’s Connect
           </span>
-          <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
+          <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-linear-to-r from-primary to-purple-600">
             Get In Touch
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -27,7 +27,7 @@ export const ContactSection = () => {
         {/* Content */}
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
-          <div className="space-y-8 p-8 rounded-2xl bg-gradient-to-br from-secondary/20 to-background border border-border">
+          <div className="space-y-8 p-8 rounded-2xl bg-linear-to-br from-secondary/20 to-background border border-border">
             <h3 className="text-2xl font-bold">Contact Details</h3>
 
             <div className="space-y-6">
@@ -99,7 +99,7 @@ export const ContactSection = () => {
 
             <a
               href="mailto:sohelkhan060404@gmail.com"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-purple-600 text-white font-medium hover:opacity-90 transition"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-linear-to-r from-primary to-purple-600 text-white font-medium hover:opacity-90 transition"
             >
               Send Email <Mail size={16} />
             </a>

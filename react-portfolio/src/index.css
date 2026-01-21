@@ -17,20 +17,38 @@
   --animate-meteor: meteor 5s linear infinite;
 
   @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); } /* ⬅ slightly smaller */
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-8px);
+    }
+
+    /* ⬅ slightly smaller */
   }
 
   @keyframes pulse-subtle {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.85; }
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.85;
+    }
   }
 
   @keyframes fade-in {
     from {
       opacity: 0;
-      transform: translateY(14px); /* ⬅ reduced */
+      transform: translateY(14px);
+      /* ⬅ reduced */
     }
+
     to {
       opacity: 1;
       transform: translateY(0);
@@ -42,6 +60,7 @@
       transform: rotate(215deg) translateX(0);
       opacity: 1;
     }
+
     100% {
       transform: rotate(215deg) translateX(-420px);
       opacity: 0;
@@ -91,12 +110,26 @@
 /* ⬇ Slightly tighter container */
 @utility container {
   margin-inline: auto;
-  padding-inline: 1.5rem; /* ⬅ was 2rem */
+  padding-inline: 1.5rem;
+  /* ⬅ was 2rem */
 
-  @media (width >= 640px) { max-width: 640px; }
-  @media (width >= 768px) { max-width: 768px; }
-  @media (width >= 1024px) { max-width: 1024px; }
-  @media (width >= 1280px) { max-width: 1200px; } /* ⬅ slightly smaller */
+  @media (width >=640px) {
+    max-width: 640px;
+  }
+
+  @media (width >=768px) {
+    max-width: 768px;
+  }
+
+  @media (width >=1024px) {
+    max-width: 1024px;
+  }
+
+  @media (width >=1280px) {
+    max-width: 1200px;
+  }
+
+  /* ⬅ slightly smaller */
 }
 
 /* Utilities (kept clean) */
@@ -110,8 +143,7 @@
 }
 
 @utility cosmic-button {
-  @apply px-5 py-2 rounded-full bg-primary text-primary-foreground font-medium 
-         transition-all duration-300 hover:scale-105 active:scale-95;
+  @apply px-5 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:scale-105 active:scale-95;
 }
 
 @utility star {
