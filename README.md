@@ -18,10 +18,10 @@ A fast, modern, and responsive developer portfolio website built using **React**
 
 ### 🧰 other section
 
-![Section](sampleimage/sample3.png)
-![Section](sampleimage/sample4.png)
-![Section](sampleimage/sample5.png)
-![Section](sampleimage/sample6.png)
+![Section](react-portfolio/sampleimage/sample3.png)
+![Section](react-portfolio/sampleimage/sample4.png)
+![Section](react-portfolio/sampleimage/sample5.png)
+![Section](react-portfolio/sampleimage/sample6.png)
 
 ## ✨ Features
 
